@@ -340,7 +340,9 @@ a:focus {
 }
 
 /*----Portfolio Cards---*/
-
+h6 {
+  float: right;
+}
 
 
 
