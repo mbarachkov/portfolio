@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="slick/slick-theme.css">
   <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
   <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/templatemo-style.css" />
+  <link rel="stylesheet" href="css/style.css" />
 
 </head>
 
@@ -71,8 +71,8 @@
           <div class="tm-intro-text-container">
             <h2 class="tm-text-primary mb-4 tm-section-title">About Me</h2>
             <p class="mb-4 tm-intro-text">
-              Current web development student in the UCSD Full Stack Coding Bootcamp. For the past decade I have 
-              been doing freelance graphic art and working on sportfishing boats until a recent change in career 
+              Current web development student in the UCSD Full Stack Coding Bootcamp. For the past decade I have
+              been doing freelance graphic art and working on sportfishing boats until a recent change in career
               paths. I hope to absorb as much knowledge as I can and grow as a developer each day.
             </p>
             <p class="mb-5 tm-intro-text">
@@ -103,6 +103,10 @@
           <ul class="list-group">
             <li class="list-group-item"><i class="fab fa-node-js"></i> Node js</li>
             <li class="list-group-item">FireBase</li>
+            <li class="list-group-item">MySQL</li>
+            <li class="list-group-item">express</li>
+            <li class="list-group-item">handlebars</li>
+            <li class="list-group-item">sequelize</li>
           </ul>
         </div>
         <div class="col-lg-4 mt-5 mt-lg-0">
@@ -111,6 +115,8 @@
           <ul class="list-group">
             <li class="list-group-item">Visual Studio Code</li>
             <li class="list-group-item">Git</li>
+            <li class="list-group-item">MySQL Workbench</li>
+            <li class="list-group-item">Postman</li>
           </ul>
         </div>
       </div>
@@ -125,16 +131,24 @@
       </div>
 
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-2">
+          <img src="img/mrs potluck small.png" id="tn1">
+          <img src="img/liri screenshot small.png" id="tn2">
+          <img src="img/world view small.png" id="tn3">
+          <img src="img/Train Scheduler small.png" id="tn4">
+          <img src="img/crystal collector small.png" id="tn5">
+          <img src="img/psychic game small.png" id="tn6">
+        </div>
+        <div class="col-md-10">
           <div class="accordion" id="accordionExample">
             <div class="card">
               <div class="card-header" id="headingSix">
                 <h5 class="mb-0">
                   <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
                     aria-expanded="true" aria-controls="collapseOne">
-                   LIRI BOT
+                    Mrs. Potluck
                   </button>
-                  <h6>app for getting various information using Node.js</h6>
+                  <h6>app for organizing potlucks using a SQL db, express, handlebars following CRUD</h6>
                 </h5>
               </div>
 
@@ -142,11 +156,41 @@
                 <div class="card-body">
                   <div class="row">
                     <div class="col-md-4">
+                      <a href="https://mrs-potluck.herokuapp.com/"><strong>Mrs. Potluck Website</strong></a><br>
+                      <a href="https://github.com/mbarachkov/Mrs_Potluck">GitHub for this Project</a>
+                    </div>
+                    <div class="col-md-8">
+                      <img src="img/mrs potluck.png">
+                      <p class="card-content">Mrs. Potluck is an orginizational tool to organize potlucks and
+                        all the itmes people would bring to a potluck. This app uses Express, Handlebars, Node.js,
+                        javascript, mySQL, sequilize, HTML5 and CSS3.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingSix">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="true" aria-controls="collapseTwo">
+                    LIRI BOT
+                  </button>
+                  <h6>app for getting various information using Node.js</h6>
+                </h5>
+              </div>
+
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-4">
                       <a href="https://github.com/mbarachkov/liri-node-app">GitHub for this Project</a>
                     </div>
                     <div class="col-md-8">
-                      <p class="card-content">LIRI bot takes in information using specific commands and returns 
-                        information on the command line using Node. This app utalizes multiple NPM packages and 
+                      <img src="img/liri screenshot.JPG">
+                      <p class="card-content">LIRI bot takes in information using specific commands and returns
+                        information on the command line using Node. This app utalizes multiple NPM packages and
                         API's to achieve the re
                       </p>
                     </div>
@@ -157,15 +201,15 @@
             <div class="card">
               <div class="card-header" id="headingOne">
                 <h5 class="mb-0">
-                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
-                    aria-expanded="true" aria-controls="collapseOne">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree"
+                    aria-expanded="true" aria-controls="collapseThree">
                     World View
                   </button>
                   <h6>app for narrowing search results of relevant news articles and images based off of user input</h6>
                 </h5>
               </div>
 
-              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                 <div class="card-body">
                   <div class="row">
                     <div class="col-md-4">
@@ -173,8 +217,10 @@
                       <a href="https://github.com/mbarachkov/world-view">GitHub for this Project</a>
                     </div>
                     <div class="col-md-8">
+                      <img src="img/world view.png">
                       <p class="card-content">World View is an application to search for relevant, recent, image and
-                        news content in one place. It utalizes 2 API's to generate the images and news articles, as well is setup
+                        news content in one place. It utalizes 2 API's to generate the images and news articles, as well
+                        is setup
                         with FireBase for saving the top five searched items on our site.
                       </p>
                     </div>
@@ -185,24 +231,28 @@
             <div class="card">
               <div class="card-header" id="headingTwo">
                 <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="false" aria-controls="collapseTwo">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                    data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                     Train Scheduler
                   </button>
                   <h6>FireBase based table for calculating times</h6>
                 </h5>
               </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                 <div class="card-body">
                   <div class="row">
                     <div class="col-md-4">
-                      <a href="https://mbarachkov.github.io/Train-Scheduler/"><strong>Train Scheduler Website</strong></a><br>
+                      <a href="https://mbarachkov.github.io/Train-Scheduler/"><strong>Train Scheduler
+                          Website</strong></a><br>
                       <a href="https://github.com/mbarachkov/Train-Scheduler">GitHub for this Project</a>
                     </div>
                     <div class="col-md-8">
+                      <img src="img/Train Scheduler.png">
                       <p class="card-content">
-                        This Train Scheduler application uses the information that is input from the user to a form that will
-                        generate the times until the next train arrives. This utalizes mainly the use of FireBase, jQuery and 
+                        This Train Scheduler application uses the information that is input from the user to a form that
+                        will
+                        generate the times until the next train arrives. This utalizes mainly the use of FireBase,
+                        jQuery and
                         moments js.
                       </p>
                     </div>
@@ -214,23 +264,27 @@
               <div class="card-header" id="headingThree">
                 <h5 class="mb-0">
                   <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                     Crystal Collector
                   </button>
                   <h6>jQuery based game using randomly generated numbers</h6>
                 </h5>
               </div>
-              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div id="collapseFive" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                 <div class="card-body">
                   <div class="row">
                     <div class="col-md-4">
-                      <a href="https://mbarachkov.github.io/unit-4-game/"><strong>Crystal Collector Website</strong></a><br>
+                      <a href="https://mbarachkov.github.io/unit-4-game/"><strong>Crystal Collector
+                          Website</strong></a><br>
                       <a href="https://github.com/mbarachkov/unit-4-game">GitHub for this Project</a>
                     </div>
                     <div class="col-md-8">
                       <p class="card-content">
-                        This application randomly generates a number and you must click each gem (which are also given a random number),
-                        you either get the same total as the target number or go over and lose. Javascript with the use of jQuery was 
+                        <img src="img/crystal collector.png">
+                        This application randomly generates a number and you must click each gem (which are also given a
+                        random number),
+                        you either get the same total as the target number or go over and lose. Javascript with the use
+                        of jQuery was
                         used to achieve this.
                       </p>
                     </div>
@@ -241,15 +295,15 @@
             <div class="card">
               <div class="card-header" id="headingFour">
                 <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                    data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix"
+                    aria-expanded="true" aria-controls="collapseSix">
                     Psychic Game
                   </button>
                   <h6>Simple game following the same rules as Hangman</h6>
                 </h5>
               </div>
 
-              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+              <div id="collapseSix" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                 <div class="card-body">
                   <div class="row">
                     <div class="col-md-4">
@@ -258,7 +312,9 @@
                     </div>
                     <div class="col-md-8">
                       <p class="card-content">
-                        For this application the computer thinks of a word and you have an alloted amount of guesses (keystrokes)
+                        <img src="img/psychic game.png">
+                        For this application the computer thinks of a word and you have an alloted amount of guesses
+                        (keystrokes)
                         to correctly guess the word the computer is thinking of. Javascript is used to power this.
                       </p>
                     </div>
@@ -266,18 +322,18 @@
                 </div>
               </div>
             </div>
-            <div class="card">
+            <!-- <div class="card">
               <div class="card-header" id="headingFive">
                 <h5 class="mb-0">
                   <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                    data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                    data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
                     GIPHY
                   </button>
                   <h6>app to generate gifs</h6>
                 </h5>
               </div>
 
-              <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+              <div id="collapseSeven" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
                 <div class="card-body">
                   <div class="row">
                     <div class="col-md-4">
@@ -286,15 +342,16 @@
                     </div>
                     <div class="col-md-8">
                       <p class="card-content">
-                          This app utalizes API's to generate gifs based on buttons users create on input. The users button will 
-                          generate 10 gifs based off of the button value. Javascript using jQuery and AJAX
+                        This app utalizes API's to generate gifs based on buttons users create on input. The users
+                        button will
+                        generate 10 gifs based off of the button value. Javascript using jQuery and AJAX
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-    
+            </div> -->
+
           </div>
         </div>
       </div>
@@ -317,7 +374,7 @@
           <div class="mb-5 tm-underline">
             <div class="tm-underline-inner"></div>
           </div>
-          
+
         </div>
 
         <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
